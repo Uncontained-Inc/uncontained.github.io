@@ -1,0 +1,51 @@
+
+body {
+    background: #27423B;
+    font-family: 'Gothic A1', sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    color:#ffffff;
+    text-align: left;
+    font-size: 60px;
+    margin: 100px 0 0 0;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 50px;
+    margin: 0 0 0 0;
+    font-weight: 10;
+}
+
+h3 {
+    color: #8E8666;
+    text-align: left;
+}
+
+.plantImg {
+    position:absolute;
+    height:100%;
+    width:25%;
+    bottom:0;
+    right:15vw;
+    object-fit: cover;
+    z-index:-1;
+}
+
+.containerImg {
+    position:absolute;
+    height:100%;
+    width:30%;
+    top:0;
+    right:0;
+    object-fit: cover;
+    z-index:-1;
+}
+
+a {
+    color:#8E8666;
+}
